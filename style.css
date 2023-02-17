@@ -1,0 +1,22 @@
+
+
+.contenido{ 
+padding-left: 120px;
+   
+}
+h1{
+    font-size: 96px;
+}
+p{
+    font-size: 25px;
+}
+
+img{
+    /* height: 700px; */
+    
+}
+button{
+    height: 40px;
+    width: 160px;
+    border-radius: 15px;
+}
