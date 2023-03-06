@@ -1,5 +1,9 @@
 
-
+:root{
+    --AlmostWhite: hsl(0, 0%, 98%);
+--MediumGray: hsl(0, 0%, 41%);
+--AlmostBlack: hsl(0, 0%, 8%);
+}
 .contenido{ 
 padding-left: 120px;
    
@@ -19,4 +23,32 @@ button{
     height: 40px;
     width: 160px;
     border-radius: 15px;
+}
+.contenedor_nav{
+    display: flex;
+}
+ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    
+}
+ul:first-child li .about{
+    margin-left: 50px;
+}
+ul:nth-child(2){
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.nav-2{
+    height: 100%;
+    width: 130%;
+    border: 1px solid var(--MediumGray);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 0;
+    
 }
