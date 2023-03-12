@@ -4,20 +4,24 @@
 --MediumGray: hsl(0, 0%, 41%);
 --AlmostBlack: hsl(0, 0%, 8%);
 }
+body{
+    font-size: 18px;
+}
 .contenido{ 
 padding-left: 120px;
-   
+padding-right: 50px;
+
 }
 h1{
-    font-size: 96px;
+    font-size: 89px;
 }
 p{
-    font-size: 25px;
+    font-size: 24px;
 }
 
 button{
-    height: 60px;
-    width: 160px;
+    height: 47px;
+    width: 130px;
     border-radius: 25px;
     margin-top: 50px;
 
@@ -30,13 +34,14 @@ button:hover{
 .contenedor_nav{
     display: flex;
     margin-top: 20px;  
+    
+   
 }
 ul{
     width: 100%;
     display: flex;
-    gap: 40px;
+    
     list-style: none;
-   
     
 }
 ul:first-child li .about{
@@ -50,6 +55,7 @@ ul:nth-child(2){
 }
 .features{
     width: 20%;
+    margin-left: 60px;
 
 }
 .arriba{
@@ -90,7 +96,7 @@ ul:nth-child(2){
     display: block;
     position: absolute;
     top: 30px;
-    margin-left: 100px;
+    margin-left: 102px;
      /* background-color: rgb(206, 205, 205); */
     
 }
@@ -115,6 +121,7 @@ ul:nth-child(2){
    
     text-align: start;
     display: none;
+    
 }
 .company:hover{
     background-color: rgb(185, 184, 184);
@@ -127,7 +134,7 @@ ul:nth-child(2){
     display: block;
     position: absolute;
     top: 30px;
-    margin-left: 100px;
+    margin-left: 110px;
 }
 .company:hover .nav-3{
     display: block;
@@ -137,6 +144,10 @@ ul:nth-child(2){
     background-color: rgb(185, 184, 184);
     border-radius: 15px;
 
+}
+
+.about{
+    margin-left: 80px;
 }
 .last{
     height:40px;
@@ -165,4 +176,7 @@ ul:nth-child(2){
     display: flex;
     justify-content: end;
     align-items: end;
+}
+.imagen{
+    padding-left:30px;
 }
