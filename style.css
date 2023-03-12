@@ -15,22 +15,28 @@ p{
     font-size: 25px;
 }
 
-img{
-    /* height: 700px; */
-    
-}
 button{
-    height: 40px;
+    height: 60px;
     width: 160px;
-    border-radius: 15px;
+    border-radius: 25px;
+    margin-top: 50px;
+
+}
+button:hover{
+    
+    background-color: var(--AlmostBlack);
+    color: white;
 }
 .contenedor_nav{
     display: flex;
+    margin-top: 20px;  
 }
 ul{
+    width: 100%;
     display: flex;
     gap: 40px;
     list-style: none;
+   
     
 }
 ul:first-child li .about{
@@ -40,15 +46,123 @@ ul:nth-child(2){
     width: 100%;
     display: flex;
     justify-content: end;
+   
+}
+.features{
+    width: 20%;
+
+}
+.arriba{
+    position: absolute;
+
+    display: none;
+}
+.abajo{
+    margin-left: 30px;
+}
+.features .abajo{
+    margin-left: 30px;
 }
 .nav-2{
-    height: 100%;
-    width: 130%;
+    height: 90%;
+    width: 100%;
     border: 1px solid var(--MediumGray);
-    border-radius: 20px;
+    box-shadow: 5px 5px 10px var(--MediumGray);
+    border-radius: 10px;
+    background-color: var(--AlmostWhite);
     display: flex;
     flex-direction: column;
     padding: 0;
-    gap: 0;
+    gap: 5px;
+    padding-left: 5px;
+    text-align: start;
+    display: none;
     
+}
+.features:hover{
+    background-color: rgb(185, 184, 184);
+    border-radius: 10%;
+}
+.features:hover .abajo{
+     display: none;
+}
+.features:hover .arriba{
+    display: block;
+    position: absolute;
+    top: 30px;
+    margin-left: 100px;
+     /* background-color: rgb(206, 205, 205); */
+    
+}
+.features:hover .nav-2{
+    display: block;
+    
+}
+.company{
+    width: 20%;
+}
+.nav-3{
+    height: 90%;
+    width: 100%;
+    border: 1px solid var(--MediumGray);
+    box-shadow: 5px 5px 10px var(--MediumGray);
+    border-radius: 10px;
+    background-color: var(--AlmostWhite);
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 5px;
+   
+    text-align: start;
+    display: none;
+}
+.company:hover{
+    background-color: rgb(185, 184, 184);
+    border-radius: 10%;
+}
+.company:hover .abajo{
+    display: none;
+}
+.company:hover .arriba{
+    display: block;
+    position: absolute;
+    top: 30px;
+    margin-left: 100px;
+}
+.company:hover .nav-3{
+    display: block;
+    
+}
+.nav-3 li:hover{
+    background-color: rgb(185, 184, 184);
+    border-radius: 15px;
+
+}
+.last{
+    height:40px;
+    width: 110px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.last:nth-child(1){
+    border: none;
+}
+.last:nth-child(1):hover{
+    border: solid 1px;
+    background-color: var(--AlmostBlack);
+    color: white;
+}
+.last:nth-child(2):hover{
+
+    background-color: var(--AlmostBlack);
+    color: white;
+}
+.cal{
+    height: 25%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
 }
