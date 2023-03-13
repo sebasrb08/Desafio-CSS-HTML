@@ -13,7 +13,7 @@ padding-right: 50px;
 
 }
 h1{
-    font-size: 89px;
+    font-size: 90px;
 }
 p{
     font-size: 24px;
@@ -60,7 +60,6 @@ ul:nth-child(2){
 }
 .arriba{
     position: absolute;
-
     display: none;
 }
 .abajo{
@@ -79,10 +78,10 @@ ul:nth-child(2){
     display: flex;
     flex-direction: column;
     padding: 0;
-    gap: 5px;
+    gap: 8px;
     padding-left: 5px;
     text-align: start;
-    display: none;
+    visibility: hidden;
     
 }
 .features:hover{
@@ -101,14 +100,15 @@ ul:nth-child(2){
     
 }
 .features:hover .nav-2{
-    display: block;
+    visibility: visible;
     
 }
 .company{
+    height: 70%;
     width: 20%;
 }
 .nav-3{
-    height: 90%;
+    height: 100%;
     width: 100%;
     border: 1px solid var(--MediumGray);
     box-shadow: 5px 5px 10px var(--MediumGray);
@@ -117,10 +117,10 @@ ul:nth-child(2){
     display: flex;
     flex-direction: column;
     padding: 0;
-    gap: 5px;
-   
+    gap: 8px;
     text-align: start;
-    display: none;
+    visibility: hidden;
+
     
 }
 .company:hover{
@@ -129,6 +129,7 @@ ul:nth-child(2){
 }
 .company:hover .abajo{
     display: none;
+    
 }
 .company:hover .arriba{
     display: block;
@@ -137,12 +138,14 @@ ul:nth-child(2){
     margin-left: 110px;
 }
 .company:hover .nav-3{
-    display: block;
+    visibility: visible; 
     
 }
 .nav-3 li:hover{
+   
     background-color: rgb(185, 184, 184);
     border-radius: 15px;
+
 
 }
 
